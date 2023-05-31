@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
+
+@import 'fonts';
+
+$gap: .25rem;
+$headerHeight: 100px;
+$logoSize: 135px;
+$logoGap: calc(#{$logoSize} + 2.5vw);
+$borderRadius: .25rem;
+
+:root {
+  --bs-primary: #0082DE;
+  --bs-primary-rgb: 0, 130, 222;
+  --bs-secondary: #E8553E;
+  --bs-secondary-rgb:232, 85, 62;
+  --bs-link-color: var(--bs-primary);
+
+  --bg-base: #F5F5F5;
+  --bg-base-rgb: 245, 245, 245;
+  --light-blue: #ECF7FF;
+
+  --bs-gutter-x: 1.5rem;
+  
+  --border-radius: .25rem;
+
+  // Foots
+  --poppins: 'Poppins', 'Roboto', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+  --nooriNastaliq: 'Jameel Noori Nastaleeq', sans-serif;
+  --changa: 'Changa', sans-serif;
+
+  --font-gilroy-light: 'Gilroy-Light', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-regular: 'Gilroy-Regular', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-medium: 'Gilroy-Medium', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-bold: 'Gilroy-Bold', 'Poppins', 'Roboto', sans-serif;
+  --font-gilroy-heavy: 'Gilroy-Heavy', 'Poppins', 'Roboto', sans-serif;
+
+  --transition: all .3s ease-in-out;
+  --header-height: 100px;
+  --medium-card-height: 480px;
+  --medium-card-width: 320px;
+  --horizontal-ad-height: 150px;
+  --vertical-ad-height: 480px;
+  --small-card-height: 146px;
+  --artical-type-card-height: 350px;
+  --artical-type-card-width: 350px;
+  --vidoe-thumbnail-height: 340px;
+  --listing-hero-banner-height: 170px;
+  --author-profile-short-card-height: 360px;
+  --author-detail-profile-img-size: 160px;
+  --print-n-digital-card-height: 320px;
+  --input-height: 50px;
+  --slider-height: 450px;
+  --login-form-bg-height: 150px;
+  --scrollbar-width: 8px;
+  --hero-banner-bg: var(--bs-white);
+  --hero-banner-text-color: var(--bs-primary);
+  --author-profile-card-padding-block: calc(1rem + 1vw);
+  --author-profile-card-padding-inline: calc(1rem + 0.5vw);
+  --post-listing-card-block-color: var(--bs-dark);
+  --card-padding: .5rem;
+  --post-listing-width: 300px;
+
+  // media queries
+  --viewport-gap: 4rem;
+  --container-sm: 540px;
+  --container-md: 720px;
+  --container-lg: 960px;
+  --container-xl: 1140px;
+  --container-xxl: 1320px;
+
+  --media-sm-width: 576px;
+  --media-md-width: 768px;
+  --media-lg-width: 992px;
+  --media-xl-width: 1200px;
+  --media-xxl-width: 1400px;
+
+}
